@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7590942-e463-46a4-ac47-116d14db28b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hca/semtech/StatsComputationTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2dsBBYJnxsGnXAe1oa4pV3dEFKk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CitiesStatsApp.executor": "Run",
+    "JUnit.StatsComputationTest$Computation.should_compute_500_cities_file.executor": "Run",
+    "JUnit.StatsComputationTest$Computation.should_compute_cities_file.executor": "Run",
+    "JUnit.StatsComputationTest$PerformanceWay.executor": "Run",
+    "JUnit.StatsComputationTest$PerformanceWay.should_compute_stats.executor": "Run",
+    "JUnit.StatsComputationTest$PerformanceWay.should_compute_stats_using_department_code_on_all_lines_missing_department_name.executor": "Run",
+    "JUnit.StatsComputationTest$PerformanceWay.should_compute_stats_with_missing_department_code.executor": "Debug",
+    "JUnit.StatsComputationTest$PerformanceWay.should_compute_stats_with_missing_department_name.executor": "Run",
+    "JUnit.StatsComputationTest$PerformanceWay.should_compute_stats_with_missing_department_name_at_the_beginning.executor": "Run",
+    "JUnit.StatsComputationTest$PerformanceWay.should_drop_headLine.executor": "Run",
+    "JUnit.StatsComputationTest.executor": "Run",
+    "JUnit.StatsComputationTest.should_compute_stats_using_department_code_on_all_lines_missing_department_name.executor": "Run",
+    "JUnit.StatsPerDepartmentTest.check_file_exists_before_using_it.executor": "Debug",
+    "JUnit.StatsPerDepartmentTest.everything_is_ok_on_creation.executor": "Run",
+    "JUnit.StatsPerDepartmentTest.executor": "Run",
+    "Maven.semtech [clean].executor": "Run",
+    "Maven.semtech [compile].executor": "Run",
+    "Maven.semtech [install].executor": "Run",
+    "Maven.semtech [test].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/hcapitaine/projects/semtech/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2850575",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hca.semtech" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hca.semtech" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.hca.semtech" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StatsComputationTest">
+    <configuration name="CitiesStatsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hca.semtech.CitiesStatsApp" />
+      <module name="semtech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hca.semtech.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsComputationTest$Computation.should_compute_500_cities_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="semtech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hca.semtech.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hca.semtech.StatsComputationTest" />
+      <option name="MAIN_CLASS_NAME" value="com.hca.semtech.StatsComputationTest$Computation" />
+      <option name="METHOD_NAME" value="should_compute_500_cities_file" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsComputationTest$Computation.should_compute_cities_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="semtech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hca.semtech.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hca.semtech.StatsComputationTest" />
+      <option name="MAIN_CLASS_NAME" value="com.hca.semtech.StatsComputationTest$Computation" />
+      <option name="METHOD_NAME" value="should_compute_cities_file" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsComputationTest$PerformanceWay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="semtech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hca.semtech.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hca.semtech.StatsComputationTest" />
+      <option name="MAIN_CLASS_NAME" value="com.hca.semtech.StatsComputationTest$PerformanceWay" />
+      <option name="METHOD_NAME" value="should_compute_stats_using_department_code_on_all_lines_missing_department_name" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsComputationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="semtech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hca.semtech.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hca.semtech" />
+      <option name="MAIN_CLASS_NAME" value="com.hca.semtech.StatsComputationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StatsComputationTest" />
+        <item itemvalue="Application.CitiesStatsApp" />
+        <item itemvalue="JUnit.StatsComputationTest$Computation.should_compute_cities_file" />
+        <item itemvalue="JUnit.StatsComputationTest$Computation.should_compute_500_cities_file" />
+        <item itemvalue="JUnit.StatsComputationTest$PerformanceWay" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-temurin-21.0.2-f644763e9732-ebe2d606" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7590942-e463-46a4-ac47-116d14db28b4" name="Changes" comment="" />
+      <created>1710786772387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710786772387</updated>
+      <workItem from="1710786773411" duration="5651000" />
+      <workItem from="1710847158497" duration="54000" />
+      <workItem from="1710847221599" duration="27804000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hca/semtech/StatsComputationTest.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hca/semtech/City.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hca/semtech/StatsComputationTest.java</url>
+          <line>222</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hca/semtech/StatsComputationTest.java</url>
+          <line>211</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
