@@ -82,11 +82,12 @@ Every PR would ensure that compilation, tests (unit and in memory integration on
 Once reviewed by peers, the PR can be merged on main branch. 
 
 On main branch compilation, same tests as runned on PR, automatic deployment of database upgrades in test environment using liquibase or equivalent, automatic deployment of application(s) in test environment, 
-running acceptance tests E2E if needed and exists (front end tests using, or api tests).
+running acceptance tests E2E if needed and exists (front end tests using selenium or equivalent or api tests).
 
 If the code uses feature flag, activation of the feature flag manually by human tester then deployment in production. 
 Automatic update of DB, deployment of applications (depending on the infrastructure and IAC framework used).
 Manual activation of the given FF.
+
 
 ### Deployment on infra
 
