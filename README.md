@@ -73,4 +73,30 @@ The application should output in your terminal an output like this:
 ![Output part 1](doc/images/appOutputPart1.png "Output part 1")
 ![Output part 2](doc/images/appOutputPart2.png "Output part 2")
 
-### Github
+### CI/CD
+
+I didn't use github for a long time and I'm more confortable with gitlab at the time but I'm pretty sure both can achieve the same purpose. 
+
+On gitlab, I would be in favor of trunk based development. Every branches are started from main branch.
+Every PR would ensure that compilation, tests (unit and in memory integration ones only, arch unit if exists and needed) are runned.
+Once reviewed by peers, the PR can be merged on main branch. 
+
+On main branch compilation, same tests as runned on PR, automatic deployment of database upgrades in test environment using liquibase or equivalent, automatic deployment of application(s) in test environment, 
+running acceptance tests E2E if needed and exists (front end tests using, or api tests).
+
+If the code uses feature flag, activation of the feature flag manually by human tester then deployment in production. 
+Automatic update of DB, deployment of applications (depending on the infrastructure and IAC framework used).
+Manual activation of the given FF.
+
+### Deployment on infra
+
+If we can use AWS, I would propose 2 infra depending on the size of the file.
+
+If the size of the CSV file when uploaded do not exceed 30s (api gateway timeout for rest call) and 10 240MB (ephemeral storage on lambda), I would propose a simple application on lambda that would read the csv content and store it in ephemeral storage then output the result in the HTTP response.
+
+If the size exceeds one of these limit, I would expose a lambda that would receive in the request an id and a callback url to contact the consumer once the computation is done. In the response I would return a ephemeral and secured S3 link that would allow the user to upload the file on S3. The lambda would store all these ids, callback url and S3 link in db so it can be tracked and deleted over time.
+Once the user has uploaded the csv file on S3, a lambda would be automatically triggered to read the outputstream from S3 and compute the stats and then write in a new file the output that could be downloaded from S3. 
+Finally, the lambda would call the callback url so the consumer knows he can download the file, no need for the consumer to trigger a call every X seconds, minutes.
+
+
+
